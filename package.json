@@ -1,0 +1,51 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "set DEBUG=app,app:* & nodemon app.js",
+    "start": "set DEBUG=app & node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.19.1",
+    "body-parser": "1.19.0",
+    "bootstrap": "3.2.0",
+    "chalk": "3.0.0",
+    "connect-flash": "0.1.1",
+    "cookie-parser": "1.4.4",
+    "debug": "4.1.1",
+    "dotenv": "8.2.0",
+    "ejs": "3.0.1",
+    "express": "^4.17.1",
+    "express-session": "1.17.0",
+    "jquery": "3.4.1",
+    "mongodb": "3.5.0",
+    "morgan": "1.9.1",
+    "mssql": "6.0.1",
+    "mysql": "2.18.1",
+    "mysql2": "2.1.0",
+    "nodemon": "2.0.2",
+    "passport": "0.4.1",
+    "passport-local": "1.0.0",
+    "popper": "1.0.1",
+    "popper.js": "1.16.0",
+    "pug": "2.0.4",
+    "xml2js": "0.4.23"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.20.0"
+  }
+}
